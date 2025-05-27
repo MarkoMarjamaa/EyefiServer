@@ -1,3 +1,3 @@
-source /root/eyefiserver2/bin/activate
-/usr/local/bin/eyefiserver.py  $1 /etc/eyefiserver.conf /var/log/eyefiserver.log
+source /root/eyefiserver/bin/activate
+/root/eyefiserver/eyefiserver.py  $1 /etc/eyefiserver.conf /var/log/eyefiserver.log
 deactivate
